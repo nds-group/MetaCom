@@ -1,0 +1,6 @@
+We use the ToN-IoT dataset to demonstrate how in-switch machine learning inference can detect and classify attacks in metaverse IoT networks at line rate. 
+You can find the information about the testbed deployed to capture the dataset in this link: https://research.unsw.edu.au/projects/toniot-datasets
+
+
+You can access the training and testing datasets obtained from the processed pcaps in the links below:
+Data: https://drive.google.com/file/d/1lAuHQBaxBiHLKDEvjYngAt0O9HvxxMFf/view?usp=sharing
