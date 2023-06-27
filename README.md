@@ -4,7 +4,8 @@ This repository contains the public version of the code for our work presented a
 
 ## Securing the Metaverse at Line Rate
 
-<img width="731" alt="image" src="https://github.com/nds-group/MetaCom/assets/37122991/80b8c8b1-93ab-4786-90fc-61bc0099fb0d">
+<img width="731" alt="image" src="https://github.com/nds-group/MetaCom/assets/37122991/918f5285-6d29-4e39-829a-b3a4514152ec">
+
 
 We propose the very first framework for the fast and automated detection of cyberattacks against metaverse IoT devices that relies on pure user-plane inference. 
 Our design aligns with the internal organization of the Protocol Independent Switch Architecture (PISA), and integrates state-of-the-art strategies for mapping decision trees to switch hardware. We implemented our solution into a real testbed with off-the-shelf Intel Tofino programmable switches using _P4_ that is a domain-specific language.
