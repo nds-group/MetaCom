@@ -297,8 +297,9 @@ for qsfp_cage in [1, 5]: #replace with your own switch ports
         for j in range(1,6):
             for k in range(1,6):
                 if ((i!=j) & (j!=k) & (i!=k)):
-                    print("voting_table.add_with_set_final_class("+"class_s1_t0="+str(i)+ \
-                          ", class_s1_t1="+str(j)+", class_s1_t2="+str(k)+", class_result="+str(np.random.choice([i, j, k]))+")", file=entries_file)
+                    #print("voting_table.add_with_set_final_class("+"class_s1_t0="+str(i)+ \
+                    #      ", class_s1_t1="+str(j)+", class_s1_t2="+str(k)+", class_result="+str(np.random.choice([i, j, k]))+")", file=entries_file)
+                    pass
                 else:
                     print("voting_table.add_with_set_final_class("+"class_s1_t0="+str(i)+", class_s1_t1="+str(j)+\
                           ", class_s1_t2="+str(k)+", class_result="+str(mode([i, j, k]))+")", file=entries_file)
