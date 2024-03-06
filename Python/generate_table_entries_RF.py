@@ -289,7 +289,7 @@ for qsfp_cage in [1, 5]: #replace with your own switch ports
         code_tbl_name = "tbl_s1_cw"+str(tree_id)
         for cod, mas, cla, cer in zip(Final_Codes, Final_Masks, Classe, Certain):
             print(code_tbl_name+".add_with_SetClass_s1_t"+str(tree_id)+"(cw_s1_t"+str(tree_id)+"=", cod, ", cw_s1_t"+str(tree_id)+\
-                "_mask=", mas, ", classe=",cla+1,")", file=entries_file)
+                "_mask=", mas, ", classe=",cla+1, ", cert=", cer, ")", file=entries_file)
         print('', file=entries_file)
 
     # Get voting table entries
